@@ -142,18 +142,22 @@ h2 {
     justify-content: center;
 }
 
-.card-project {
+.card-content {
     background-color: var(--card-bg);
     color: var(--text-color);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     max-width: 350px;
-    transition: transform 0.3s;
 }
 
-.card-project:hover {
+.card-project .card-content {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-project .card-content:hover {
     transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card-project p {
@@ -240,8 +244,8 @@ article h3 {
 }
 
 .icon-social:hover {
-    transform: scale(1.2);
-    color: var(--text-color);
+    transform: scale(1.2) !important;
+    color: var(--text-color) !important;
 }
 
 footer {
@@ -263,5 +267,13 @@ footer {
     header img {
         width: 12rem;
         height: 12rem;
+    }
+
+    .nav-links {
+        gap: 0.5rem;
+    }
+
+    .nav-links a {
+        font-size: 0.9rem;
     }
 }

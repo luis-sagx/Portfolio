@@ -14,3 +14,10 @@ toggleButton.addEventListener('click', () => {
     icon.classList.replace(dark ? 'fa-moon' : 'fa-sun', dark ? 'fa-sun' : 'fa-moon');
     localStorage.setItem('theme', dark ? 'dark' : 'light');
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    AOS.init({
+        duration: 1000, // Duración de la animación en milisegundos
+        once: true      // La animación ocurre solo una vez
+    });
+});

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <title>Luis Sagnay</title>
 </head>
 <body>
@@ -21,7 +23,7 @@
         </div>
     </nav>
 
-    <header id="start">
+    <header id="start" data-aos="fade-down" data-aos-duration="1000">
         <div class="foto">
             <img src="img/luis.jpeg" alt="Foto de Luis Sagnay">
         </div>
@@ -91,34 +93,46 @@
             
             <h2>Proyectos Recientes</h2>
             <section id="projects" class="projects">
-                <article class="card-project">
-                    <img src="img/sureno.png" alt="licoreria sureno">
-                    <h3>Tienda de licores online "Sureño"</h3>
-                    <p>
-                        Sitio web diseñado para la venta y administración de licores de la marca "Sureño". 
-                        Incluye un sistema de gestión de inventarios, carrito de compras, y pagos. 
-                        Además, cuenta con un panel de administración para gestionar productos y pedidos.</p>
-                    <p><strong>HTML</strong><strong>CSS</strong><strong>JavaScript</strong><strong>MongoDB</strong></p>
-                    <a href="https://github.com/luis-sagx/Sureno.git"><strong><i class="fab fa-github"></i> Código</strong></a>
+                <article class="card-project" data-aos="fade-up">
+                    <div class="card-content">
+                        <img src="img/sureno.png" alt="licoreria sureno">
+                        <h3>Tienda de licores online "Sureño"</h3>
+                        <p>
+                            Sitio web diseñado para la venta y administración de licores de la marca "Sureño". 
+                            Incluye un sistema de gestión de inventarios, carrito de compras, y pagos. 
+                            Además, cuenta con un panel de administración para gestionar productos y pedidos.
+                        </p>
+                        <p><strong>HTML</strong><strong>CSS</strong><strong>JavaScript</strong><strong>MongoDB</strong></p>
+                        <a href="https://github.com/luis-sagx/Sureno.git"><strong><i class="fab fa-github"></i> Código</strong></a>
+                    </div>
                 </article>
-    
-                <article class="card-project">
-                    <img src="img/hospital.png" alt="gestion hospitalaria">
-                    <h3>Sistema de gestión Hospitalaria</h3>
-                    <p>Aplicación web para la gestión de citas médicas y tratamientos. Los administradores pueden 
-                        registrar pacientes, agendar citas, tratamientos, gestionar doctores, horarios y reportes médicos.</p>
-                    <p><strong>HTML</strong><strong>CSS</strong><strong>JavaScript</strong><strong>C#</strong><strong>SQLServer</strong></p>
-                    <a href="https://github.com/luis-sagx/Sistema_Gestion_Hospitalaria.git"><strong><i class="fab fa-github"></i> Código</strong></a>
+            
+                <article class="card-project" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-content">
+                        <img src="img/hospital.png" alt="gestion hospitalaria">
+                        <h3>Sistema de gestión Hospitalaria</h3>
+                        <p>
+                            Aplicación web para la gestión de citas médicas y tratamientos. Los administradores pueden 
+                            registrar pacientes, agendar citas en horarios establecidos, seguimiento de tratamientos, gestionar doctores, 
+                            y generacion de facturas.
+                        </p>
+                        <p><strong>HTML</strong><strong>CSS</strong><strong>JavaScript</strong><strong>C#</strong><strong>SQLServer</strong></p>
+                        <a href="https://github.com/luis-sagx/Sistema_Gestion_Hospitalaria.git"><strong><i class="fab fa-github"></i> Código</strong></a>
+                    </div>
                 </article>
-    
-                <article class="card-project">
-                    <img src="img/carta.png" alt="envio de cartas">
-                    <h3>Envío de cartas "Simply Lovely"</h3>
-                    <p>Plataforma interactiva para niños que permite crear, personalizar y enviar cartas digitales a sus familiares. 
-                        Incluye plantillas predeterminadas, sistema de grabacion de carta mediante la voz, herramientas de personalización 
-                        y un sistema de envio por correo electrónico.</p>
-                    <p><strong>HTML</strong><strong>CSS</strong><strong>JavaScript</strong><strong>Node JS</strong></p>
-                    <a href="https://github.com/MateoJa54/carta.git"><strong><i class="fab fa-github"></i> Código</strong></a>
+            
+                <article class="card-project" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-content">
+                        <img src="img/carta.png" alt="envio de cartas">
+                        <h3>Envío de cartas "Simply Lovely"</h3>
+                        <p>
+                            Plataforma interactiva para niños que permite crear, personalizar y enviar cartas digitales a sus familiares. 
+                            Incluye plantillas predeterminadas, sistema de grabación de carta mediante la voz, herramientas de personalización 
+                            y un sistema de envío por correo electrónico.
+                        </p>
+                        <p><strong>HTML</strong><strong>CSS</strong><strong>JavaScript</strong><strong>Node JS</strong></p>
+                        <a href="https://github.com/MateoJa54/carta.git"><strong><i class="fab fa-github"></i> Código</strong></a>
+                    </div>
                 </article>
             </section>
             <section>
